@@ -5,13 +5,15 @@
 
 效果如下：
 
-![image-20210225174310770](C:\Users\11860\Desktop\8utbm-6r5vf.gif)
+![image-20210225174310770](./public/img/8utbm-6r5vf.gif)
 
 ### 使用方法
 
 首先使用npm下载
 
 `npm i vue-state-switch `
+
+使用代码如下：
 
 ```vue
 <template>
@@ -47,5 +49,5 @@ export default {
 | closeText       | 关闭的文字描述 | string                    | 关闭   |
 | openValue       | 打开时的值     | boolean / string / number | true   |
 | closeValue      | 关闭时的值     | boolean / string / number | false  |
-| duration        | 过渡时间, 毫秒 | number                    | —      |
+| duration        | 过渡时间, 秒   | number                    | —      |
 
